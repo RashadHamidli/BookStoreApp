@@ -8,13 +8,12 @@ import com.company.entity.User;
 import java.sql.Date;
 import java.util.List;
 
-
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        UserSkillDAOinter userDAO = Context.instanceUserSkillDao();
-        System.out.println(userDAO.getAllSkillByUserİd(1));
+        UserDAOinter userDAO = Context.instanceUserDao();
+        User u = new User(3, "Rashad", "Hamidli", "asdasd@gmail.com", "+994552557794", "Java App", "Baku", new Country(1, null, null), new Country(1, null, null), new Date(199 - 10 - 10));
+        userDAO.updateUser(u);
 
     }
-
 }

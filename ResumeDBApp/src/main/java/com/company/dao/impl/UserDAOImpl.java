@@ -18,11 +18,11 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
         String phone = resultSet.getString("phone");
         String profileDescription = resultSet.getString("profileDescription");
         String address = resultSet.getString("address");
+        Date birthdate = resultSet.getDate("birthdate");
         int nationalityId = resultSet.getInt("nationality_id");
         int birthplaceId = resultSet.getInt("birthplace_id");
         String nationalityStr = resultSet.getString("nationality");
         String birthplaceStr = resultSet.getString("birthplace");
-        Date birthdate = resultSet.getDate("birthdate");
         Country nationality = new Country(nationalityId, null, nationalityStr);
         Country birthplace = new Country(birthplaceId, birthplaceStr, null);
         return new User(id, name, surname, email, phone, profileDescription, address, nationality, birthplace, birthdate);
@@ -105,15 +105,18 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
     @Override
     public boolean updateUser(User u) {
         try (Connection conn = connect()) {
-            PreparedStatement statement = conn.prepareStatement("update user set name=?, surname=?, email=?, phone=?, profileDescription=?, address=?, birthdate=? where id=?");
+            PreparedStatement statement = conn.prepareStatement("update user set name=?, surname=?, email=?, phone=?, profileDescription=?, address=?, birthdate=?, birthplace_id=?, nationality_id=?   where id=? ");
             statement.setString(1, u.getName());
             statement.setString(2, u.getSurname());
             statement.setString(3, u.getEmail());
             statement.setString(4, u.getPhone());
-            statement.setInt(5, u.getId());
-            statement.setString(6, u.getProfileDescription());
-            statement.setString(7, u.getAddress());
-            statement.setDate(8, u.getBirthDate());
+            statement.setString(5, u.getProfileDescription());
+            statement.setString(6, u.getAddress());
+            statement.setDate(7, u.getBirthDate());
+           statement.setInt(8, u.getBirthplace().getId());
+           statement.setInt(9, u.getNationality().getId());
+            statement.setInt(10, u.getId());
+
             return statement.execute();
         } catch (Exception ex) {
             ex.printStackTrace();
