@@ -8,6 +8,7 @@ import com.company.entity.Skill;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,16 +67,41 @@ public class SkillDAOImpl extends AbstractDAO implements SkillDAOinter {
     }
 
     @Override
-    public Boolean addSkill(Skill skill) {
+    public Boolean insertSkill(Skill skill) {
         try (Connection conn = connect()) {
-            PreparedStatement statement = conn.prepareStatement("insert into skill(name) values(?) ");
+            PreparedStatement statement = conn.prepareStatement("insert into skill(name) values(?) ", Statement.RETURN_GENERATED_KEYS);
             statement.setString(1, skill.getName());
 
+            ResultSet generatedKeys = statement.getGeneratedKeys();
+            if (generatedKeys.next()) {
+                skill.setId(generatedKeys.getInt(1));
+            }
             return statement.execute();
         } catch (Exception ex) {
             ex.printStackTrace();
             return false;
         }
+    }
+    public boolean insertSkillaaa(Skill skl) {
+        Connection conn;
+        boolean b = true;
+        try {
+            conn = connect();
+            PreparedStatement stmt = conn.prepareStatement("insert skill (name) VALUES (?);", Statement.RETURN_GENERATED_KEYS);
+            stmt.setString(1, skl.getName());
+            b = stmt.execute();
+
+            ResultSet generatedKeys = stmt.getGeneratedKeys();
+
+            if (generatedKeys.next()) {
+                skl.setId(generatedKeys.getInt(1));
+            }
+
+        } catch (Exception ex) {
+            System.err.println(ex);
+            b = false;
+        }
+        return b;
     }
 
     @Override

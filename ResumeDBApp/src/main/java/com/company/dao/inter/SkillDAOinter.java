@@ -10,7 +10,7 @@ public interface SkillDAOinter {
 
     public List<Skill> getSkillById(int userId);
 
-    public Boolean addSkill(Skill skill);
+    public Boolean insertSkill(Skill skill);
 
     public Boolean removeSkill(int id);
 

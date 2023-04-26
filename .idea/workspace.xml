@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14fa521b-ac1a-49ff-95bc-1db838eb81fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/ArrColl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/CreateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/demo/RandomEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/encap/DataBaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/encap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/MainE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/Months.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/StaffMembers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/SuperModerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/file/EFIle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/GundelikTelabetKrediti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/GuzestliIpotekaKredit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/KreditNovleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/IDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/MysqlDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/OracleDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/list/ArrList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/list/HashMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/main/MultiArrayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Employ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/dao/inter/UserDAOinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/main/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/Coll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/Coll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/CollectionsExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/CollectionsExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/ShapeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/ShapeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ObjectCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ObjectCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyPatternDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/RealImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/RealImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/FileUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/FileUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RegistrationConsoleApp" beforeDir="false" afterPath="$PROJECT_DIR$/../../RegistrationConsoleApp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OmVUrr2Eb9lZfN6OkreegsneL7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/com.company/resumesecond/ResumeDBApp/ResumeDBApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.dao.impl" />
+      <recent name="com.company.dao.inter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
+      <module name="ResumeDBApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14fa521b-ac1a-49ff-95bc-1db838eb81fd" name="Changes" comment="" />
+      <created>1682165765603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682165765603</updated>
+      <workItem from="1682165767023" duration="11636000" />
+      <workItem from="1682179082158" duration="12483000" />
+      <workItem from="1682229085000" duration="8228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

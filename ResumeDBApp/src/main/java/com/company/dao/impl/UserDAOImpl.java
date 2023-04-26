@@ -60,7 +60,6 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
     public User getById(int getId) {
         User result = null;
         try (Connection conn = connect()) {
-
             Statement statement = conn.createStatement();
             statement.execute("SELECT\n " +
                     "\tu.*, \n" +
