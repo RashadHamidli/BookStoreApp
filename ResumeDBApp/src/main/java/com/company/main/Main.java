@@ -14,7 +14,7 @@ public class Main {
 //        UserDAOinter userDAO = Context.instanceUserDao();
 //        User u = new User(3, "Rashad", "Hamidli", "asdasd@gmail.com", "+994552557794", "Java App", "Baku", new Country(1, null, null), new Country(1, null, null), new Date(199 - 10 - 10));
 //        userDAO.updateUser(u);
-        int i=Integer.valueOf("i");
-        System.out.println(i);
+
+        System.out.println("hello world");
     }
 }
