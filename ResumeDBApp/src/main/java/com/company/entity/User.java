@@ -1,11 +1,17 @@
 package com.company.entity;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
+
+import java.sql.Connection;
 import java.sql.Date;
+import java.sql.PreparedStatement;
 import java.util.List;
+
+import static com.company.dao.inter.AbstractDAO.connect;
 
 public class User {
     private int id;
-    private String name, surname, email, phone, profileDescription, address;
+    private String password, name, surname, email, phone, profileDescription, address;
     private Country nationality, birthplace;
     private Date birthDate;
     private List<UserSkill> skills;
@@ -21,11 +27,19 @@ public class User {
     public User() {
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public User(int id) {
         this.id = id;
     }
 
-    public User(int id, String name, String surname, String email, String phone, String profileDescription, String address, Country country, Country birthplace, Date birthDate) {
+    public User(int id, String name, String surname, String email, String phone, String profileDescription, String address, Country nationality, Country birthplace, Date birthDate) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -33,7 +47,7 @@ public class User {
         this.phone = phone;
         this.profileDescription = profileDescription;
         this.address = address;
-        this.nationality = country;
+        this.nationality = nationality;
         this.birthplace = birthplace;
         this.birthDate = birthDate;
     }
@@ -133,4 +147,6 @@ public class User {
                 ", birthDate=" + birthDate +
                 '}';
     }
+
+
 }

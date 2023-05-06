@@ -1,5 +1,6 @@
 package com.company.dao.impl;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import com.company.dao.inter.AbstractDAO;
 import com.company.dao.inter.UserDAOinter;
 import com.company.entity.Country;
@@ -16,7 +17,7 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
         String surname = resultSet.getString("surname");
         String email = resultSet.getString("email");
         String phone = resultSet.getString("phone");
-        String profileDescription = resultSet.getString("profileDescription");
+        String profileDescription = resultSet.getString("profile_description");
         String address = resultSet.getString("address");
         Date birthdate = resultSet.getDate("birthdate");
         int nationalityId = resultSet.getInt("nationality_id");
@@ -26,6 +27,62 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
         Country nationality = new Country(nationalityId, null, nationalityStr);
         Country birthplace = new Country(birthplaceId, birthplaceStr, null);
         return new User(id, name, surname, email, phone, profileDescription, address, nationality, birthplace, birthdate);
+    }
+
+    private User getUserSimple(ResultSet rs) throws Exception {
+        int id = rs.getInt("id");
+        String name = rs.getString("name");
+        String surname = rs.getString("surname");
+        String phone = rs.getString("phone");
+        String email = rs.getString("email");
+        String profileDesc = rs.getString("profile_description");
+        String address = rs.getString("address");
+        int nationalityId = rs.getInt("nationality_id");
+        int birthplaceId = rs.getInt("birthplace_id");
+        Date birthdate = rs.getDate("birthdate");
+
+
+        User user = new User(id, name, surname, phone, email, profileDesc, address, null, null, null);
+        user.setPassword(rs.getString("password"));
+
+        return user;
+    }
+
+    @Override
+    public User findByEmailAndPassword(String email, String password) {
+        User result = null;
+        try (Connection c = connect()) {
+            PreparedStatement stmt = c.prepareStatement("select * from user where email=? and password=?");
+            stmt.setString(1, email);
+            stmt.setString(2, password);
+
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                result = getUserSimple(rs);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result;
+    }
+
+    @Override
+    public User findByEmail(String email) {
+        User result = null;
+        try (Connection c = connect()) {
+            PreparedStatement stmt = c.prepareStatement("select * from user where email=?");
+            stmt.setString(1, email);
+
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                result = getUserSimple(rs);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result;
     }
 
     @Override
@@ -187,7 +244,7 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
     }
 
 
-//    @Override
+    //    @Override
 //    public User getById(int getId) {
 //        User result = null;
 //        try (Connection conn = connect()) {
@@ -238,27 +295,9 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
     }
 
     @Override
-    public boolean addUser(User user) {
-        try (Connection conn = connect()) {
-            PreparedStatement statement = conn.prepareStatement("insert into user(name, surname, email, phone,profileDescription, address, birthdate) values(?,?,?,?,?,?,?)");
-            statement.setString(1, user.getName());
-            statement.setString(2, user.getSurname());
-            statement.setString(3, user.getEmail());
-            statement.setString(4, user.getPhone());
-            statement.setString(5, user.getProfileDescription());
-            statement.setString(6, user.getAddress());
-            statement.setDate(7, user.getBirthDate());
-            return statement.execute();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            return false;
-        }
-    }
-
-    @Override
     public boolean updateUser(User u) {
         try (Connection conn = connect()) {
-            PreparedStatement statement = conn.prepareStatement("update user set name=?, surname=?, email=?, phone=?, profileDescription=?, address=?, birthdate=?, birthplace_id=?, nationality_id=?   where id=? ");
+            PreparedStatement statement = conn.prepareStatement("update user set name=?, surname=?, email=?, phone=?, profile_description=?, address=?, birthdate=?, birthplace_id=?, nationality_id=?   where id=? ");
             statement.setString(1, u.getName());
             statement.setString(2, u.getSurname());
             statement.setString(3, u.getEmail());
@@ -287,6 +326,33 @@ public class UserDAOImpl extends AbstractDAO implements UserDAOinter {
             return false;
         }
     }
+
+    private static BCrypt.Hasher crypt = BCrypt.withDefaults();
+
+    @Override
+    public boolean addUser(User u) {
+        try (Connection c = connect()) {
+            PreparedStatement stmt = c.prepareStatement("insert into user(name,surname,phone,email,password,profile_description) values(?,?,?,?,?,?)");
+            stmt.setString(1, u.getName());
+            stmt.setString(2, u.getSurname());
+            stmt.setString(3, u.getPhone());
+            stmt.setString(4, u.getEmail());
+            stmt.setString(5, crypt.hashToString(4, u.getPassword().toCharArray()));
+            stmt.setString(6, u.getProfileDescription());
+            return stmt.execute();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
+    }
+    public static void main(String[] args) {
+        User u = new User(0, "test","test","test","test",null,null,null,null,null);
+        u.setPassword("12345");
+        new UserDAOImpl().addUser(u);
+
+        System.out.println(crypt.hashToString(4, "12345".toCharArray()));
+    }
+
 
 
 }

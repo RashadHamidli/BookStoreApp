@@ -8,8 +8,14 @@ import java.util.List;
 
 public interface UserDAOinter {
     public List<User> getAll();
+
+    public User findByEmailAndPassword(String email, String password);
+
+    public User findByEmail(String email);
+
     public List<User> getAll(String name, String surname, Integer nationalityId);
-    public List<User> getAll(String name, String surname, String email, String phone, String address );
+
+    public List<User> getAll(String name, String surname, String email, String phone, String address);
 
     public User getById(int id);
 
