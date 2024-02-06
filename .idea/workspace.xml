@@ -5,65 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fa521b-ac1a-49ff-95bc-1db838eb81fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/ArrColl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/CreateCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/arrays/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/demo/RandomEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/encap/DataBaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/encap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/MainE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/Months.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/StaffMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/SuperModerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/enumEx/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/exceptions/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/file/EFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/GundelikTelabetKrediti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/GuzestliIpotekaKredit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/KreditNovleri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/IDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/MysqlDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/inter/OracleDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/list/ArrList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/list/HashMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/main/MultiArrayManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/animal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Electric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/polimorfisim/pol/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Electric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Employ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/work/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/dao/inter/UserDAOinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDBApp/src/main/java/com/company/main/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/Coll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/Coll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/CollectionsExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/src/main/java/com/company/collections/CollectionsExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/ShapeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/factory/ShapeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ObjectCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ObjectCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/ProxyPatternDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/RealImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/designPattern/proxy/RealImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/FileUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/FileUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo/target/classes/com/company/file/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RegistrationConsoleApp" beforeDir="false" afterPath="$PROJECT_DIR$/../../RegistrationConsoleApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/CountryDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/EmploymentHistoryDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/SkillDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/UserDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/UserSkillDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/CountryDAOinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/EmploymentHistoryDAOinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/SkillDAOinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/UserDAOinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/UserSkillDAOinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/EmploymentHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/UserSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/main/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/main/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,39 +45,32 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2OmVUrr2Eb9lZfN6OkreegsneL7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/com.company/resumesecond/ResumeDBApp/ResumeDBApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/com.company/resumesecond/ResumeDBApp/ResumeDBApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.dao.impl" />
