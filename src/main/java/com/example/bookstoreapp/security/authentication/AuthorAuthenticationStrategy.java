@@ -20,13 +20,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import javax.management.relation.Role;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 @Component
 @Slf4j
 @RequiredArgsConstructor
-public class AuthorAuthenticationStrategy implements AuthenticationStrategy {
+public abstract class AuthorAuthenticationStrategy implements AuthenticationStrategy {
     private final AuthorRepository authorRepository;
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
@@ -68,7 +68,6 @@ public class AuthorAuthenticationStrategy implements AuthenticationStrategy {
                 .build(), "SUCCESS");
     }
 
-    @Override
     public GenericResponse<VerifyResponseDto> verifyToken(HttpServletRequest request) {
         isLogin(request);
         String jwtFromRequest = jwtUtil.getJWTFromRequest(request);
@@ -96,7 +95,6 @@ public class AuthorAuthenticationStrategy implements AuthenticationStrategy {
         }
     }
 
-    @Override
     public GenericResponse<? extends Object> refreshToken(HttpServletRequest request) {
         String jwt = jwtUtil.getJWTFromRequest(request);
         try {

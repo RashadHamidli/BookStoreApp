@@ -1,12 +1,13 @@
 package com.example.bookstoreapp.entity;
 
 
-import com.example.bookstoreapp.enums.RoleEnum;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @Data

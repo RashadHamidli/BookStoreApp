@@ -2,13 +2,12 @@ package com.example.bookstoreapp.entity;
 
 import com.example.bookstoreapp.enums.RoleEnum;
 import com.example.bookstoreapp.enums.TokenClaims;
+import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
-import org.hibernate.annotations.Type;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.*;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,11 +1,11 @@
 package com.example.bookstoreapp.dto;
 
 import com.example.bookstoreapp.enums.AuthenticationType;
-import com.sun.istack.NotNull;
+import org.jetbrains.annotations.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotEmpty;
 
 @Getter
 @Setter

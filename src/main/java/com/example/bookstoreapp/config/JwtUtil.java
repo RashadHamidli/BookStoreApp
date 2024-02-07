@@ -2,16 +2,15 @@ package com.example.bookstoreapp.config;
 
 import com.example.bookstoreapp.enums.TokenClaims;
 import io.jsonwebtoken.*;
-
 import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.time.DateUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
-import org.apache.commons.lang3.time.DateUtils;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import java.security.Key;
 import java.util.Date;
 import java.util.Map;

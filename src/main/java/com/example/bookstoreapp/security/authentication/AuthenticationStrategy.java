@@ -4,7 +4,7 @@ import com.example.bookstoreapp.dto.AuthenticationResponseDto;
 import com.example.bookstoreapp.dto.GenericResponse;
 import com.example.bookstoreapp.dto.VerifyResponseDto;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 public interface AuthenticationStrategy {
     GenericResponse<Void> register(Object request);
