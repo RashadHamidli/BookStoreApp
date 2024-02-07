@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fa521b-ac1a-49ff-95bc-1db838eb81fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/CountryDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/EmploymentHistoryDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/SkillDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/UserDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/impl/UserSkillDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/CountryDAOinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/EmploymentHistoryDAOinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/SkillDAOinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/UserDAOinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/dao/inter/UserSkillDAOinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/EmploymentHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/Skill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/entity/UserSkill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/main/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeDBApp/src/main/java/com/company/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,37 +22,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2OmVUrr2Eb9lZfN6OkreegsneL7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/com.company/resumesecond/ResumeDBApp/ResumeDBApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rashad/IdeaProjects/BookStoreApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.dao.impl" />
       <recent name="com.company.dao.inter" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
       <module name="ResumeDBApp" />
@@ -91,11 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookStoreAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BookStoreApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bookstoreapp.BookStoreAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-abbd5a8d" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,10 +105,18 @@
       <workItem from="1682165767023" duration="11636000" />
       <workItem from="1682179082158" duration="12483000" />
       <workItem from="1682229085000" duration="8228000" />
+      <workItem from="1707208713493" duration="518000" />
+      <workItem from="1707285269860" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

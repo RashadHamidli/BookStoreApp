@@ -1,35 +1,32 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: postgres
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-  liquibase:
-    change-log: classpath:db/db.changelog-master.xml
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: heybetmovlamov2005@gmail.com
-    password: gklk ohmj jylo tvnh
-    properties:
-      mail:
-        smtp:
-          auth: true
-          connectiontimeout: 5000
-          timeout: 5000
-          writetimeout: 5000
-          starttls:
-            enable: true
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
-my:
-    message:
-        body: "Subscribed Info"
+# DataSource Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=postgres
+spring.datasource.password=admin
+  
+  # JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+  
+  # Liquibase Configuration
+spring.liquibase.change-log=classpath:db/db.changelog-master.xml
+
+
+spring.mail.host=smtp.mail.ru
+spring.mail.port=465
+spring.mail.username=mail_rashad@mail.ru
+spring.mail.password=4VR5acXnVd4psyKkLDw5
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.properties.mail.smtp.ssl.enable=true
+spring.mail.properties.mail.smtp.connectiontimeout=5000
+spring.mail.properties.mail.smtp.timeout=5000
+spring.mail.properties.mail.smtp.writetimeout=5000
+  
+  # MVC Configuration
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+  
+  # Custom Configuration
+my.message.body=Subscribed Info
